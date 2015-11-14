@@ -323,7 +323,6 @@ body{font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";font-size
 	
 	text-align:center;
 	width:24.8125em;
-	height: 2.630769em;
 	margin:0 auto;
 	-moz-border-radius:1.875em;
 	-webkit-border-radius:1.875em;
@@ -331,7 +330,7 @@ body{font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";font-size
 	border:1px solid #e2e7ed;
 	overflow:hidden;
 }
-.wrap-fx .navCell a{float:left;width:33%;line-height:2.630769em;color:#8b96a1;font-size:15px;}
+.wrap-fx .navCell a{float:left;width:33%;line-height:2.830769em;color:#8b96a1;font-size:15px;}
 .wrap-fx .navCell .cur{color:#fff;background:#ffc96d;}
 .wrap-fx .navCell b{height:3.625em;float:left;}
 
@@ -425,4 +424,4 @@ body{font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";font-size
 
 .upBox img{width:28px; height:28px; margin-top: 12px; float:left;margin-right:5px;}
 .upBox p{width:314px;line-height:50px;float:left; font-size: 12px;}
-.upBox .btn1{display: block; position:absolute; width:80px; margin-top: 8px; right:30px; height:35px;line-height:35px;color:#fff;text-align:center;float:left;background:#00c0aa;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.upBox .btn1{display: block; position:absolute; width:80px; margin-top: 8px; right:30px; height:35px;line-height:35px;color:#fff;text-align:center;float:left;background:#00c0aa;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; font-size: 14px; }
