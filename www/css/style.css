@@ -430,7 +430,6 @@ body {
     height: 60px;
     position: relative;
     margin-top: -52px;
-    margin-right: 18px;
     background: url(../img/album_play.png) no-repeat;
     background-size: 100% auto;
     float: right;
@@ -649,6 +648,7 @@ body {
     height: 28px;
     margin-top: 12px;
     float: left;
+    margin-left: 5px;
     margin-right: 5px;
 }
 
