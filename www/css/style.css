@@ -551,6 +551,8 @@ body {
     float: right;
     line-height: 23px;
     vertical-align: middle;
+    margin-right: 20px;
+    margin-top: 8px;
 }
 
 .staryList .playing .num i {
@@ -592,7 +594,7 @@ body {
 .load_btn_cont {
 
     width: 85px;
-    line-height: 23px;
+    line-height: 28px;
     text-align: center;
     position: absolute;
     left: 0;
@@ -604,7 +606,7 @@ body {
 .load_btn {
 
     width: 85px;
-    height: 23px;
+    height: 28px;
     color: #fff;
     background: #bec8d3;
     -moz-border-radius: 30px;
