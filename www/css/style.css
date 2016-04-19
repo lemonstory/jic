@@ -526,7 +526,7 @@ body {
 }
 
 .staryList .num, .staryList p, .staryList a {
-    float: left;
+    float: right;
     line-height: 43px;
     vertical-align: middle;
 }
