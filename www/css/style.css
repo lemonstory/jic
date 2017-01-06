@@ -352,57 +352,68 @@ body {
 }
 
 .wrap-fx .fx_t {
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
     margin: 0 auto;
 }
 
 .wrap-fx .leftCell {
 
     float: left;
-    width: 120px;
-    margin-right: 20px;
+    width: 40%;
+    margin-right: 12px;
 }
 
 .wrap-fx .leftCell .tag {
-
     display: block;
-    position: relative;
-    background: #4dd6bd;
-    left: 0;
-    top: -120px;
     color: #fff;
-    border-radius: 0 5px 5px 0;
-    text-align: center;
-    width: 60px;
-    height: 20px;
+    text-align: right;
+    padding-right: 5%;
     line-height: 20px;
-    font-size: 12px
+    font-size: 12px;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+    position: relative;
+    border-radius: 6px;
+}
+
+.wrap-fx .leftCell .cover{
+    position: relative;
+    top: -20px;
 }
 
 .wrap-fx .leftCell .tag i {
-    width: 14px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
     display: inline-block;
-    vertical-align: middle;
     margin-right: 5px;
-    background: url(../img/listen_ico.png) no-repeat;
+    background: url(../img/ic_player.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.recommend-listennum i {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/ic_player.png) no-repeat;
     background-size: 100% auto;
 }
 
 .wrap-fx .rightCell {
-    margin-left: 140px; /*==等于左边栏宽度==*/
-
+    height: 0;
+    padding-bottom: 40%;
 }
 
 .wrap-fx .rightCell .d1 {
 
     color: #8b96a1;
     font-size: 14px;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 .level {
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .level i {
@@ -435,6 +446,15 @@ body {
     float: right;
 }
 
+.wrap-fx .rightCell .d2 img {
+
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: -52px;
+    float: right;
+}
+
 .fx_col {
 
     font-size: 14px;
@@ -447,9 +467,10 @@ body {
 
 .fx_col .d {
     display: inline-block;
-    width: 30%;
+    width: 23%;
     vertical-align: middle;
     text-align: center;
+    font-size: 13px;
 }
 
 .divider-vertical {
@@ -469,17 +490,22 @@ body {
 }
 
 .fx_col .d1 i {
-    background: url(../img/shc_ico.png) no-repeat;
+    background: url(../img/btn_album_fav_normal.png) no-repeat;
     background-size: 100% auto;
 }
 
 .fx_col .d2 i {
-    background: url(../img/fx_ico.png) no-repeat;
+    background: url(../img/btn_player_comment_normal.png) no-repeat;
     background-size: 100% auto;
 }
 
 .fx_col .d3 i {
-    background: url(../img/load_ico1.png) no-repeat;
+    background: url(../img/btn_album_share.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.fx_col .d4 i {
+    background: url(../img/ic_album_download.png) no-repeat;
     background-size: 100% auto;
 }
 
